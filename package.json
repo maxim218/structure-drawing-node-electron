@@ -1,0 +1,47 @@
+{
+  "name": "structure-drawing",
+  "version": "1.2.3",
+  "description": "structure drawing project",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "webpack",
+    "start": "./node_modules/.bin/electron .",
+    "ready": "electron-packager .",
+    "pack": "build --dir",
+    "buildsimple": "build -w"
+  },
+  "keywords": [
+    "structure",
+    "drawing"
+  ],
+  "build": {
+    "appId": "com.structure.drawing.218.app",
+    "productName": "StructureDrawing"
+  },
+  "author": "Maxim",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "babel-loader": "^8.0.5",
+    "clean-webpack-plugin": "^2.0.1",
+    "copy-webpack-plugin": "^5.0.2",
+    "cross-env": "^5.2.0",
+    "css-loader": "^2.1.1",
+    "electron": "^4.0.4",
+    "electron-builder": "^21.2.0",
+    "electron-installer-dmg": "^3.0.0",
+    "electron-packager": "^13.1.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "style-loader": "^0.23.1",
+    "url-loader": "^1.1.2",
+    "webpack-cli": "^3.3.0"
+  },
+  "dependencies": {
+    "create-dmg": "^4.1.0",
+    "electron-prompt": "^1.3.0",
+    "fs": "0.0.1-security",
+    "webpack": "^4.0.0",
+    "webpack-node-externals": "^1.7.2"
+  }
+}

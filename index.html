@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset = "UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id = "leftBox">
+    <div style = "padding: 15px;">
+        <h2>Structure Drawing</h2>
+        <p>Масштаб</p>
+        <input id = "rangeElement" type = "range" min = "50" max = "150" value = "100">
+        <div class = "brClass"></div>
+        <div class = "brClass"></div>
+        <input id = "t1" type = "text" class = "fieldNormal" spellcheck = 'false' autocomplete = 'off' placeholder = "Название переменной">
+        <div id = "b1" class = "btnFirst">Переменная</div>
+        <div class = "brClass"></div>
+        <div class = "brClass"></div>
+        <input id = "t2" type = "text" class = "fieldNormal" spellcheck = 'false' autocomplete = 'off' placeholder = "Размер массива">
+        <div id = "b2" class = "btnFirst">Массив</div>
+        <div class = "brClass"></div>
+        <div class = "brClass"></div>
+        <p id = "t3">Перемещение <span style = "color: green">разрешено</span></p>
+        <div id = "b3" class = "btnFirst">Изменить состояние</div>
+        <div class = "brClass"></div>
+        <div class = "brClass"></div>
+        <p id = "t4">Рисование <span style = "color: red;">запрещено</span></p>
+        <div id = "b4" class = "btnFirst">Изменить состояние</div>
+        <div class = "brClass"></div>
+        <div class = "brClass"></div>
+        <div id = "tableBox">
+            <table>
+                <tr>
+                    <td id = "k1" style = "background: #4CAF50;">Кривая линия</td>
+                </tr>
+                <tr>
+                    <td id = "k2">Прямоугольник</td>
+                </tr>
+                <tr>
+                    <td id = "k3">Ластик</td>
+                </tr>
+            </table>
+        </div>
+        <div class = "brClass"></div>
+        <div class = "brClass"></div>
+        <div id = "colorBox">
+            <table>
+                <tr>
+                    <td class = "colorElementClass" style = "background: black;">&nbsp;&nbsp;</td>
+                    <td class = "colorElementClass" style = "background: red;">&nbsp;&nbsp;</td>
+                    <td class = "colorElementClass" style = "background: green;">&nbsp;&nbsp;</td>
+                    <td class = "colorElementClass" style = "background: blue;">&nbsp;&nbsp;</td>
+                    <td class = "colorElementClass" style = "background: yellow;">&nbsp;&nbsp;</td>
+                </tr>
+            </table>
+        </div>
+        <div class = "brClass"></div>
+        <div class = "brClass"></div>
+        <div id = "q1" class = "btnSecond">Удалить переменные</div>
+        <div class = "brClass"></div>
+        <div class = "brClass"></div>
+        <div id = "q2" class = "btnSecond">Удалить линии</div>
+        <div class = "brClass"></div>
+        <div class = "brClass"></div>
+        <div> 
+            <p>
+                <b>Авторы</b>
+            </p>
+            <p style = "margin-left: 10px;">
+                Колотовкин Максим
+            </p>
+            <p style = "margin-left: 10px;">
+                Куклина Нина
+            </p>
+        </div>
+    </div>
+</div>
+
+<div id = "rightBox">
+    <canvas width = '3500px' height = '3500px' id='can'></canvas>	
+</div>
+
+<script src = "dist/code.js"></script>
+    
+</body>
+</html>

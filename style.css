@@ -1,0 +1,116 @@
+body {
+    padding: 0px;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background:#f1f1f1;
+}
+
+#leftBox {
+    position: fixed;
+    width: 250px;
+    height: 150%;
+    padding: 0px;
+    background:#f1f1f1;
+    top: 0px;
+    left: 0px;
+    z-index: 9;
+}
+
+#rightBox {
+    position: fixed;
+    width: 150%;
+    height: 150%;
+    padding: 0px;
+    top: 0px;
+    left: 250px;
+    background: #B0E0E6;
+}
+
+.btnFirst {
+    color: white;
+    background-color: #008CBA;
+    padding: 10px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+
+.btnFirst:hover {
+    background: #4CAF50;
+}
+
+.btnSecond {
+    color: white;
+    background-color: #DC143C;
+    padding: 10px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+
+.btnSecond:hover {
+    background: red;
+}
+
+.brClass {
+    padding-bottom: 15px;
+}
+
+.field {
+    width: 50px;
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+    outline: none;
+    border: none;
+    background: none;
+    text-align: center;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+
+.movingBoxClass {
+    position: absolute;
+    left: 100px;
+    top: 50px;
+}
+
+.fieldNormal {
+    font-size: 15px;
+    padding: 8px;
+    margin: 0px;
+    outline: none;
+    border: 2px solid gray;
+    background: white;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+
+#can {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+td {
+    color: white;
+    background-color: #008CBA;
+    padding: 6px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+
+#tableBox {
+    padding: 5px;
+    border: 2px solid gray;
+    display: inline-block;
+}
+
+#colorBox {
+    padding: 5px;
+    border: 2px solid gray;
+    display: inline-block;
+}
+
+.colorElementClass {
+    cursor: pointer;
+}
